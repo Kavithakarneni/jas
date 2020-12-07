@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+	<style type="text/css">
+		h2
+		{
+			font-size: 25px;
+    		background-color: darkgoldenrod;
+    		margin-left: 250px;
+    		margin-right: 250px;
+    		padding: 20px;
+    		border-radius: 12px 23px 23px 10px;
+    		text-align: center;
+		}
+		form
+		{
+			margin-left: 230px;
+			margin-right: 230px;
+			background-color: cadetblue;
+			border-radius: 23px;
+			text-align: center;
+			height: 50%;
+			width: 50%;
+		}
+		input
+		{
+			border: 2px solid red;
+			border-radius: 4px;
+			width: 80%;
+			height: 80%;
+		}
+	</style>
+</head>
+<body> 
+	<h2> Welcome to Javascript <h2>
+	<form>
+		<input type="number" placeholder="Enter first number" id='n1'><br/>
+		<input type="number" placeholder="Enter second number" id='n2'><br/>
+		<input style="width: 60%;height: 60%" type="submit" onclick="Ad()" value="validate"><br/>
+	</form>
+	<script type="text/javascript">
+		function Ad()
+		{
+		var t = document.getElementById('n1').value
+		var y = document.getElementById('n2').value
+		alert("adition of "+t +"and "+y+" ="+ (parseInt(t)+parseInt(y))+"\n"+"division of "+t +"and "+y+" ="+ (parseInt(t)/parseInt(y))+"\n"+"multiplication of "+t +"and "+y+" ="+ (parseInt(t)*parseInt(y))+"\n"+"subtraction of "+t +"and "+y+" ="+ (parseInt(t)-parseInt(y)))
+		}
+	</script>
+</body>
+</html>

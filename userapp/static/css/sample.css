@@ -1,0 +1,23 @@
+h5
+{
+	font-size: 25px;
+    background-color: darkgoldenrod;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 20px;
+    border-radius: 12px 230px 230px 10px;
+    text-align: center;
+}
+
+div
+{
+	border: 3px outset red;
+	background-color: lightgreen;
+	text-align: center;
+	width: 50%;
+	height: 50%;
+}
+body
+{
+	align-content: center;
+}
